@@ -16,12 +16,13 @@ Steps to setup
 
    note  : initialize to blank for localhost without authentication 
 
-	ie client = Transmission() 
+	client = Transmission() 
 
   
 3) Enable web client of transmission-daemon to desired values 
 
  
-4) append line : > sudo python /location/of/toxic.py 
-	to file /etc/rc.local 
-	command > sudo nano /etc/rc.local 
+4) append line : "sudo python /location/of/toxic.py"
+
+	in file /etc/rc.local 
+	> sudo nano /etc/rc.local 
