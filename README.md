@@ -1,5 +1,5 @@
-TOXIC
-=====
+TOXIC Transmission Operating boX's Integrated Client
+====================================================
 
 Transmission client for raspberry pi with support for lcd
 
