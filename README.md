@@ -3,6 +3,10 @@ TOXIC Transmission Operating boX's Integrated Client
 
 Transmission client for raspberry pi with support for lcd
 
+Dependancies
+
+python transmission-fluid transmission transmission-daemon git
+
 Steps to setup
 
 1) configure lcd.py : change the pins to your setup 
