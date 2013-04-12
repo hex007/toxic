@@ -9,14 +9,14 @@ python transmission-fluid transmission transmission-daemon git
 
 Steps to setup
 
-1) configure lcd.py : change the pins to your setup 
+1) configure lcd.py (line 57): change the pins to your setup 
 
    note  : pin numbers are GPIO pin numbers and not physical pin numbers 
 
    refer : <http://www.adafruit.com/adablog/wp-content/uploads/2013/02/Leaf_R2.png> 
 
  
-2) change login details in toxic.py : replace all caps words with respective values 
+2) change login details in toxic.py(line 23) : replace all caps words with respective values 
 
    note  : initialize to blank for localhost without authentication 
 
