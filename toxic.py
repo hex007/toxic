@@ -10,13 +10,12 @@ lcd = lcd.lcd()
 lcd.begin(16,2)
 lcd.clear()
 
-lcd.message("    Starting    \n  Transmission  ")
 sys("service transmission-daemon start")
 lcd.clear()
-lcd.message("Booting to TOXIC\n   seconds left ")
-for i in range(9,0,-1):
-	lcd.setCursor(0,1)
-	lcd.message(str(i).rjust(2))
+lcd.message("Booting to TOXIC\nT-  seconds left")
+for i in range(5,0,-1):
+	lcd.setCursor(2,1)
+	lcd.message(str(i))
 	sleep(1)
 
 # Enter specific details here
@@ -30,7 +29,7 @@ def adjust(speed):
 		speed = str(str(speed)+'K').rjust(4)
 	else :
 		speed = str(float(speed)/1024)
-		speed = str(speed[0:speed.find('.')-1]+'M').rjust(4)
+		speed = str(speed[0:speed.find('.')]+'M').rjust(4)
 	return speed
 
 try :
