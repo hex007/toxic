@@ -53,7 +53,7 @@ class lcd:
     LCD_5x8DOTS                 = 0x00
 
 
-
+	# Edit these lines according to your setup
     def __init__(self, pin_rs=4, pin_e=17, pins_db=[27, 22, 8, 7], GPIO = None):
         # Emulate the old behavior of using RPi.GPIO if we haven't been given
         # an explicit GPIO interface to use
